@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "description": "",
+  "save_name": "{{ '-'.join(cookiecutter['name'].lower().split()).replace('_', '-') }}",
+  "underscored": "{{ cookiecutter.save_name.replace('-', '_') }}",
+  "github_username": "",
+  "author_name": ""
+}
